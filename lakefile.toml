@@ -1,0 +1,16 @@
+name = "pointenergy"
+version = "0.1.0"
+description = "Single point concentrated energy breaks fields - diamond anvil principle formalized in Lean4"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+version = "master"
+
+[[leanOptions]]
+name = "autoImplicit"
+value = false
+
+[[leanOptions]]
+name = "relaxedAutoImplicit"
+value = false
